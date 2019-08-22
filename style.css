@@ -1,0 +1,59 @@
+
+.main {
+	width:1200px;
+	max-width: 95%;
+	margin:0 auto;
+	text-align: center;
+	font-size: 20px;
+}
+
+.letters-box, .keyboard-box {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+
+.letters-box .letter {
+	padding: 15px 0;
+	width: 50px;
+	margin: 10px;
+	border: 1px solid #444;
+}
+
+.letters-box .empty {
+	visibility: hidden;
+	margin: 0;
+}
+
+.keyboard-box {
+	max-width: 600px;
+}
+
+.keyboard-box .letter {
+	padding: 10px 0;
+	width: 40px;
+	margin: 5px;
+	border-radius: 50%;
+}
+
+.hide {
+	display: none;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+.white {
+	color: #fff;
+}
+
+.black {
+	color: #000;
+}
+
+button:hover {
+	cursor: pointer;
+}
