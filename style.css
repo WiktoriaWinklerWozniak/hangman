@@ -13,6 +13,7 @@
 	justify-content: center;
 	flex-wrap: wrap;
 	margin: 0 auto;
+	background-color: #444;
 }
 
 .letters-box .letter {
